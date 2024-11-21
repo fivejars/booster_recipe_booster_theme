@@ -1,0 +1,13 @@
+{
+    "name": "drupal_recipe/booster_theme",
+    "description": "Sets up Booster (Flowbite based) theme as the default theme",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "composer/installers": "^2.2",
+        "fivejars/drupal_booster_theme": "1.x-dev"
+    },
+    "extra": {
+        "installer-name": "booster_theme"
+    }
+}

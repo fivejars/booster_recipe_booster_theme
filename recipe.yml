@@ -1,0 +1,27 @@
+name: 'Default theme: Booster (Flowbite based)'
+description: 'Sets up Booster (Flowbite based) theme as the default theme.'
+type: 'Themes'
+install:
+  - block
+  - block_content_template
+  - block_style_plugins
+  - bigger_picture
+  - booster_theme
+  - components
+  - serialization
+  - twig_tweak
+config:
+  import:
+    block: ~
+    block_content_template: '*'
+    block_style_plugins: '*'
+    bigger_picture: '*'
+    booster_theme: '*'
+    components: '*'
+    serialization: '*'
+    system: ~
+    twig_tweak: '*'
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        default: booster_theme
