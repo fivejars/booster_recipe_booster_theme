@@ -6,6 +6,7 @@ install:
   - block_content_template
   - block_style_plugins
   - bigger_picture
+  - booster_logic
   - booster_theme
   - components
   - serialization
@@ -16,6 +17,7 @@ config:
     block_content_template: '*'
     block_style_plugins: '*'
     bigger_picture: '*'
+    booster_logic: '*'
     booster_theme: '*'
     components: '*'
     serialization: '*'
